@@ -1,0 +1,60 @@
+<head>
+  <title>
+    San's Portfolio
+  </title>
+</head>
+<body>
+  <div class="container">
+    <div class="aboutme">
+<!--       <h2 class="text-primary">Hola!</h2> -->
+<!--       <h3 class="text-danger">Welcome to Santza's Portfolio!</h3> -->
+      </br>
+      <h3 class="text-info text-center">About Me</h3>
+      </br>
+       <p class="text-success text-center">Hi, am Santhosh. I am a Front-End Developer with about 2 years of experience. </br>Check out my porfolio below.</p>
+  </br></br>  
+  </div>
+<div class="portfolio">
+  </br> 
+  <h3 class="text-danger text-center"> Portfolio </h3>
+ <div class="row text-center">
+  <div class="col-sm-4"><img class="thumbnail" src="https://santzapaul.github.io/siteScreenshot.png"></div>
+  <div class="col-sm-4"><img class="thumbnail" src="https://santzapaul.github.io/scierp.in.png"></div>
+  <div class="col-sm-4"><img class="thumbnail" src="https://santzapaul.github.io/placeholder.jpg"></div>
+</div>
+    </br>
+<div class="row text-center">
+  <div class="col-sm-4"><img class="thumbnail" src="https://santzapaul.github.io/placeholder.jpg"></div>
+  <div class="col-sm-4"><img class="thumbnail" src="https://santzapaul.github.io/placeholder.jpg"></div>
+  <div class="col-sm-4"><img class="thumbnail" src="https://santzapaul.github.io/placeholder.jpg"></div>
+</div>
+</br>
+</div>
+<div class="contactme">
+  </br>
+<h3 class="text-primary text-center">Contact Me</h3>
+</br>
+  <p class="text-center">If you are interested in hiring me or if you just want to say Hi, please send me a message. Thanks!</p>
+  </br>
+<form>
+  <div style="margin-left:20px">
+    <div class="form-group">
+    <label for="name">Name:</label>
+    <input type="text" class="form-control col-sm-6">
+  </div>
+  <div class="form-group">
+    <label for="email">Email Address:</label>
+    <input type="email" class="form-control col-sm-6">
+  </div>
+  <div class="form-group">
+    <label for="msg">Message:</label>
+<!--     <input type="text" class="form-control col-sm-6"> -->
+    <textarea class="form-control col-sm-6" rows="3" id="message"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+</br>
+</div>
+</div>
+</body>
